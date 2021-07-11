@@ -1,0 +1,164 @@
+/* --------servies--------- */
+
+a {
+    text-decoration: none;
+}
+
+.servies {
+    margin-top: 55px;
+}
+
+.servies__container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.servies__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.servies__header a {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #D41A36;
+}
+
+.servies__header a img {
+    margin-left: 8px;
+}
+
+.servies h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 36px;
+    color: #272727;
+}
+
+.servies__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servies__card {
+    background: #FFFFFF;
+    border: 0.7px solid rgba(134, 134, 134, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 245px;
+    margin: 14px;
+    padding: 45px 12px 13px 9px;
+    position: relative;
+}
+
+.servies__card__img {
+    text-align: center;
+}
+
+.servies__card__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #272727;
+    margin-bottom: 8px;
+}
+
+.servies__card__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #494949;
+    margin-bottom: 9px;
+}
+
+.servies__card__links {
+    display: flex;
+    width: 222px;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+
+.servies__card__links .delivery {
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration-line: underline;
+    color: #7D7D7D;
+} 
+
+.servies__card__links .have {
+    font-weight: 300;
+        font-size: 12px;
+        text-decoration-line: underline;
+        color: #219653;
+} 
+
+.servies__card__price {
+    margin-bottom: 16px;
+}
+
+.servies__card__price .servies__card__price__num {
+    font-weight: 600;
+    font-size: 20px;
+    color: #272727;
+}
+
+.servies__card__price .servies__card__price__count {
+    font-size: 11px;
+    color: #272727;
+}
+
+.servies__card__order-btn {
+    margin-top: 11px;
+}
+
+.servies__card__order-btn .buy {
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5661CB;
+    border-radius: 4px;
+    padding: 9px;
+    display: inline-block;
+    vertical-align: top;
+    width: 134px;
+}
+
+.servies__card__order-btn .check {
+    border: 1px solid #5661CB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 55px;
+    height: 33px;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.servies__card__order-btn .check img {
+    position: absolute;
+    top: 9px;
+    left: 16px;
+}
+
+.lider {
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.star-card {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
