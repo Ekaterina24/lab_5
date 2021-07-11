@@ -77,6 +77,21 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+/* -------about----- */
+
+.about {
+    padding: 41px 0 37px;
+    background: #F7F7F7;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.about__container {
+    max-width: 1380px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .header__icons {
     display: flex;
@@ -358,6 +373,77 @@ a {
 
 .projects__card.hidden, .projects__card.hidden2, .projects__card.first {
     display: none;
+}
+
+.about__blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+}
+
+.about__block .about__block__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #272727;
+    margin-bottom: 22px;
+}
+
+.about__block__links ul li {
+    list-style: none;
+}
+
+.about__block__links ul li a {
+    font-size: 16px;
+    color: #272727;
+}
+
+.about__block__links ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 107px;
+}
+
+.about__bold {
+    font-weight: 600;
+}
+
+.about__line {
+    text-decoration-line: underline;
+}
+
+.about__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 61px;
+}
+
+.about__icons img:hover {
+    cursor: pointer;
+}
+
+.about__btn button {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5661CB;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px 35px;
+} 
+
+.about__btn button:hover {
+    cursor: pointer;
+}
+
+.about-hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
