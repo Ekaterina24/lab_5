@@ -112,4 +112,148 @@
         border: 0;
     }
     
+
+    /* ---servies----- */
+
+    .servies {
+        padding: 0 20px;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+
+    /* -----servies--------- */
+
+    .nine, .ten {
+        display: none;
+    }
+
+    .servies__card {
+        width: 226px;
+        margin: 7px;
+    }
+
+    .servies__card__links {
+        width: 203px;
+    }
+
+    .servies__card__order-btn .buy {
+        width: 116px;
+    }
+
+    .servies__card__order-btn .check {
+        margin-left: 9px;
+    }
+
+    .servies h2 {
+        font-size: 26px;
+    }
+
+    .servies {
+        margin-top: 34px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    /* ----servies----- */
+
+    .servies__header a {
+        display: none;
+    }
+
+    .servies h2 {
+        font-size: 20px;
+    }
+
+    .four, .five, .six, .seven, .eight {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* ----servies---- */
+
+    .servies {
+        margin-top: 27px;
+        padding: 0 10px;
+    }
+
+    .servies h2 {
+        margin: 0 auto;
+        font-size: 22px;
+    }
+
+    .four, .five, .six {
+        display: block;
+    }
+
+    .lider, .star-card, .servies__card__links .have, .servies__card__description, .servies__card__order-btn .check {
+        display: none;
+    }
+
+    .servies__card {
+        border: 0;
+        width: 138px;
+        padding: 0;
+        margin: 27px 10px 4px; 
+    }
+
+    .servies__card__img img {
+        width: 136px;
+    }
+
+    .servies__card__title {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 5px;
+    }
+
+    .servies__card__links .delivery {
+        font-size: 11px;
+    } 
+
+    .servies__card__price .servies__card__price__num {
+        font-size: 18px;
+    }
+    
+    .servies__card__price .servies__card__price__count {
+        font-size: 10px;
+    }
+
+    .servies__card__order-btn .buy {
+        width: 122px;
+        margin-top: 0;
+    }
+
+    .servies__card__links  {
+        width: 121px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    /* ---servies----- */
+
+    .five, .six {
+        display: none;
+    }
+
+    .servies h2 {
+        font-size: 18px;
+    }
+
+    .servies {
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+
+    .servies__card {
+        margin: 27px 6px 4px; 
+    }
+
 }
