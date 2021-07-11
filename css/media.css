@@ -28,6 +28,28 @@
         font-size: 16px;
     }
 
+    /* ----projects-------- */
+
+    .projects {
+        padding: 0 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 55px;
+    }
+
+    .projects__cards {
+        padding: 0 10px;
+    }
+
+    .projects__header h2 {
+        font-size: 26px;
+    }
+
+    .projects__header a {
+        font-size: 14px;
+    }
+
+
 }
 
 @media (max-width: 1200px) {
@@ -172,6 +194,128 @@
     .four, .five, .six, .seven, .eight {
         display: none;
     }
+    /* ----projects------- */
+
+    .projects {
+        padding: 0 20px;
+    }
+
+    .projects__card.center {
+        width: 235px;
+        padding: 26px 37px 44px 30px;
+    }
+
+    .projects__card.center h2 {
+        font-size: 16px;
+    }
+
+    .projects__card.center .projects__card__description {
+        margin-top: 11px;
+        font-size: 12px;
+        width: 238px;
+        line-height: 17px;
+    }
+
+    .projects__card.center a {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .center-link {
+        margin-top: 14px;
+    }
+
+    .projects__card.center .top-left {
+        top: 9px;
+        left: 12px;
+        width: 11px;
+    }
+    
+    .projects__card.center .top-right {
+        top: 9px;
+        right: 12px;
+        width: 11px;
+    }
+    
+    .projects__card.center .bottom-right {
+        bottom: 9px;
+        right: 12px;
+        width: 11px;
+    }
+    
+    .projects__card.center .bottom-left {
+        bottom: 9px;
+        left: 12px;
+        width: 11px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    /* ----projects---- */
+
+    .projects__header a {
+        display: none;
+    }
+
+    .projects__card.center {
+        width: 208px;
+        padding: 17px 8px 23px 19px;
+    }
+
+    .projects__card.center h2 {
+        font-size: 14px;
+    }
+
+    .projects__header h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .projects__card.center .projects__card__description {
+        margin-top: 8px;
+        font-size: 11px;
+        width: 208px;
+        line-height: 16px;
+    }
+
+    .projects__card.center a {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .center-link {
+        margin-top: 8px;
+    }
+
+    .projects__card.center .top-left {
+        top: 7px;
+        left: 10px;
+        width: 8px;
+    }
+    
+    .projects__card.center .top-right {
+        top: 7px;
+        right: 10px;
+        width: 8px;
+    }
+    
+    .projects__card.center .bottom-right {
+        bottom: 7px;
+        right: 10px;
+        width: 8px;
+    }
+    
+    .projects__card.center .bottom-left {
+        bottom: 7px;
+        left: 10px;
+        width: 8px;
+    }
+
+    .projects {
+        margin-top: 38px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -233,6 +377,63 @@
     .servies__card__links  {
         width: 121px;
     }
+    /* ---projects------- */
+
+    .projects {
+        padding: 0 10px;
+    }
+
+    .projects__cards {
+        flex-wrap: wrap;
+    }
+
+    .projects__card.hidden {
+        display: block;
+    }
+
+    .projects__card {
+        margin: 7px 9px;
+    }
+
+    .projects__card.center .projects__card__description {
+        display: none;
+    }
+
+    .projects__card.center .top-left {
+        display: none;
+    }
+    
+    .projects__card.center .top-right {
+        display: none;
+    }
+    
+    .projects__card.center .bottom-right {
+        display: none;
+    }
+    
+    .projects__card.center .bottom-left {
+        display: none;
+    }
+
+    .projects__card.center {
+        width: 213px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 133px;
+    }
+
+    .center-link {
+        margin-top: 14px;
+    }
+
+    .projects__header h2 {
+        font-size: 22px;
+        margin: 0 auto;
+        margin-bottom: 26px;
+    }
     
 }
 
@@ -254,6 +455,37 @@
 
     .servies__card {
         margin: 27px 6px 4px; 
+    }
+
+
+
+    /* ---projects------- */
+
+    .projects {
+        padding: 0 10px;
+        margin: 0;
+        margin-top: 36px;
+    }
+
+    .projects__card.center {
+        display: none;
+    }
+
+    .projects__card.hidden {
+        display: none;
+    }
+
+    .projects__card.first, .projects__card.hidden2 {
+        display: block;
+    }
+
+    .projects__header h2 {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .projects__cards {
+        padding: 0;
     }
 
 }
